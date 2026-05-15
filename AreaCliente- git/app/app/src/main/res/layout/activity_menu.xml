@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/txtBienvenida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Área cliente"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gestiona tus pólizas, recibos y documentos"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="28dp" />
+        <LinearLayout
+            android:id="@+id/btnPerfil"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/fondo_tarjeta"
+            android:elevation="3dp"
+            android:padding="16dp"
+            android:layout_marginBottom="14dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_perfil"
+                android:layout_marginEnd="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mi perfil"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnPolizas"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/fondo_tarjeta"
+            android:elevation="3dp"
+            android:padding="16dp"
+            android:layout_marginBottom="14dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_polizas"
+                android:layout_marginEnd="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mis pólizas"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnRecibos"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/fondo_tarjeta"
+            android:elevation="3dp"
+            android:padding="16dp"
+            android:layout_marginBottom="14dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_recibos"
+                android:layout_marginEnd="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mis recibos"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnDocumentos"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/fondo_tarjeta"
+            android:elevation="3dp"
+            android:padding="16dp"
+            android:layout_marginBottom="14dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_documentos"
+                android:layout_marginEnd="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mis documentos"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnSalir"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/fondo_salir"
+            android:elevation="3dp"
+            android:padding="16dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_salir"
+                android:layout_marginEnd="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cerrar sesión"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

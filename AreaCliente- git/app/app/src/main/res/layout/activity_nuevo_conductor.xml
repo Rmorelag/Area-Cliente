@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nuevo conductor"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Añade un conductor a la póliza"
+            android:textSize="15sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/edtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/edtApellidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Apellidos"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/edtDni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="DNI"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/edtFechaNacimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha nacimiento: 1990-01-01"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/edtFechaCarnet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha carnet: 2010-01-01"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/edtTipoConductor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tipo: P u O"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnGuardarConductor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar conductor" />
+
+    </LinearLayout>
+
+</ScrollView>
